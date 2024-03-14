@@ -6,4 +6,5 @@ namespace IMS.UseCases.Inventories.Interfaces
     {
         Task<IEnumerable<Inventory>> ExecuteAsync(string name = "");
     }
+
 }

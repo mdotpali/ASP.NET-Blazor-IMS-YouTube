@@ -3,11 +3,14 @@
 @using IMS.UseCases.Inventories.Interfaces;
 
 @inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
-
+@inject IEditInventoryUseCase EditInventoryUseCase
 <PageTitle>Test Page</PageTitle>
 <br/>
 
 
 @code{
+    private List<Inventory> inventories = new List<Inventory>();
 
+
+    }
 }
